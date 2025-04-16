@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Green', 'Red', 'garlic', 'onion']
+
+roboflow:
+  workspace: tomatosorter
+  project: tomato-sorter-od-2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tomatosorter/tomato-sorter-od-2/dataset/3
